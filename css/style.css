@@ -1,0 +1,144 @@
+
+body{
+    font-family: "PT Sans Caption", sans-serif;
+    color: #453226;
+}
+
+.bookmarkIcon{
+    position: absolute;
+    top: -10px;
+    right: 0;
+  
+}
+.bookmarkIcon2{
+    position: absolute;
+    top: -10px;
+    left: 0;
+}
+
+.headingIcon{
+    
+    font-size: 50px;
+}
+
+
+main{
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    background-color: #f7ecde;
+}
+.container{
+    background-color: #f0cebd;
+}
+.site{
+    border: 3px #453226 solid ;
+}
+.heading{
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    z-index: 0;
+}
+.heading::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0;
+    bottom: 10px;
+    background-color: #fec260;
+    transition: all 0.1s;
+    z-index: -1;
+}
+
+.heading:hover::before {
+    height: 50%;
+}
+.bookmark-body {
+    border-color: #352e28;
+    border-width: 2px 0 2px 0;
+    border-style: dotted;
+}
+
+.bookmark-body h2 {
+    font-family: "Righteous", sans-serif;
+    font-size: 25px;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #7a4328, #c8703a);
+}
+.submit {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #453226;
+    --bs-btn-border-color: #7a4328;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #7a4328;
+    --bs-btn-hover-border-color: #453226;
+}
+
+
+
+.btn-visit {
+    --bs-btn-color: #453226;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-bg: #f0cebd;
+    --bs-btn-border-color: #453226;
+    --bs-btn-hover-bg: #453226;
+    --bs-btn-hover-border-color: #f0cebd;
+}
+
+.btn-delete {
+    --bs-btn-color: #fff;
+    --bs-btn-hover-color: #fff;  
+    --bs-btn-bg: #c8703a;
+    --bs-btn-border-color: #7a4328;
+    --bs-btn-hover-bg: #7a4328;
+    --bs-btn-hover-border-color: #c8703a;
+}
+
+
+.validation {
+    background-color: #0007;
+}
+.validation-conent {
+    width: 500px;
+    z-index: 10;
+}
+.circles span {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.circles span:nth-child(1) {
+    background-color: #f15f5d;
+}
+.circles span:nth-child(2) {
+    background-color: #febe2e;
+}
+.circles span:nth-child(3) {
+    background-color: #4db748;
+}
+.form-control:focus {
+    color: #453226;
+    background-color: #fff;
+    border-color: #c8703a;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #fec26055;
+}
+
+.validation-conent p{
+    line-height: 1.3;
+    color: #352e28;
+    font-family: "Bree Serif", serif;
+    font-size: 21px;
+}
+.validation-rules li {
+    font-size: 18px;
+    padding-top: 10px;
+}
+.validation-rules i {
+    color: #bb4120;
+}
+
